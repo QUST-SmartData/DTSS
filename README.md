@@ -1,7 +1,8 @@
 # DTSS（Domain Transformation and Semantic Segmentation）
 
 This is the official repository for "A Novel Workflow of Segmentation for Finer Mineral Distingished ：AttentionGAN-Swin-Transformer Fused Network". Please cite this work if you find this repository useful for your project.
-<img width="1588" height="726" alt="5931fe235e096296560f728fa064fb88" src="https://github.com/user-attachments/assets/d51bed17-f085-43ea-8d48-fef421cc76f1" />
+<img width="1753" height="994" alt="06887e0fdd82b5309af87be04fe5011a" src="https://github.com/user-attachments/assets/1018a0fd-2a47-49c5-bcf4-2083c3bae671" />
+
 
 
 We proposed a workflow - DTSS (Domain Transformation and Semantic Segmentation): first use AttentionGAN to convert the CT image domain to the (SEM) scanning electron microscope image domain, and then use Swin Transformer to perform image segmentation. By introducing attention masks and content masks, AttentionGAN can more effectively learn the mapping relationship between the two domains, thereby generating images in the corresponding target domain. On the basis of domain transformation, we further use Swin-Transformer for image segmentation. Swin-Transformer is a Transformer-based model that efficiently processes image data through a self-attention mechanism. Compared with traditional convolutional neural networks (CNN), Swin-Transformer's global receptive field and stronger modeling capabilities give it significant advantages when processing complex, multi-mineral rock images. Swin-Transformer is able to capture long-range dependencies in images, which is particularly important for identifying and segmenting mineral dependencies in rocks.
